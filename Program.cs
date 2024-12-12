@@ -5,6 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
+      // ArrayList er en klasse som kan holde på flere forskjellige variabler.
       ArrayList myArray = new();
       myArray.Add(1);
       myArray.Add("This is a string inside an ArrayList");
@@ -15,7 +16,7 @@ class Program
       {
         Console.WriteLine(item);
       }
-      
+      // For å kunne legge til flere forskjellige variabler i en List trenger det å være deklarert som et objekt. 
       List<Object> myList = new();
       myList.Add(1);
       myList.Add("This is a string inside a list");
