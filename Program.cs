@@ -15,5 +15,17 @@ class Program
       {
         Console.WriteLine(item);
       }
+      
+      List<Object> myList = new();
+      myList.Add(1);
+      myList.Add("This is a string inside a list");
+      myList.Add('a');
+      myList.Add(false);
+
+      foreach (var item in myList)
+      {
+        Console.WriteLine(item);
+      }
+    
     }
 }
