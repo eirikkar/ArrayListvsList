@@ -1,9 +1,19 @@
-﻿namespace ArrayListvsList;
+﻿using System.Collections;
+namespace ArrayListvsList;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+      ArrayList myArray = new();
+      myArray.Add(1);
+      myArray.Add("Hello");
+      myArray.Add('a');
+      myArray.Add(true);
+
+      foreach (var item in myArray)
+      {
+        Console.WriteLine(item);
+      }
     }
 }
