@@ -26,6 +26,10 @@ class Program
       {
         Console.WriteLine(item);
       }
+      //Dette kommer ikke til å fungere fordi man kan ikke bruke en variabel før den er deklarert.
+      //Kompileren går fra topp til bunn. Og vet ikke hva number er før den er deklarert.
+      //Console.WriteLine(number);
     
+      int number = 5;
     }
 }
