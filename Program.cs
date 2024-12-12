@@ -7,7 +7,7 @@ class Program
     {
       ArrayList myArray = new();
       myArray.Add(1);
-      myArray.Add("Hello");
+      myArray.Add("This is a string inside an ArrayList");
       myArray.Add('a');
       myArray.Add(true);
 
